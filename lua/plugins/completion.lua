@@ -14,19 +14,19 @@ require("blink.cmp").setup({
 
     -- Keybindings
     keymap = {
-        preset = "default",
-
-        -- Completion navigation
-        ["<C-j>"] = { "select_next", "fallback" },
-        ["<C-k>"] = { "select_prev", "fallback" },
-
-        -- Disable old navigation and acceptance mappings
-        ["<C-n>"] = false,
-        ["<C-p>"] = false,
-        ["<C-y>"] = false,
-
-        -- Accept completion
-        ["<C-CR>"] = { "select_and_accept", "fallback" },
+        preset = "enter",
+        --
+        -- -- Completion navigation
+        -- ["<C-j>"] = { "select_next", "fallback" },
+        -- ["<C-k>"] = { "select_prev", "fallback" },
+        --
+        -- -- Disable old navigation and acceptance mappings
+        -- ["<C-n>"] = false,
+        -- ["<C-p>"] = false,
+        -- ["<C-y>"] = false,
+        --
+        -- -- Accept completion
+        -- ["<C-CR>"] = { "select_and_accept", "fallback" },
     },
     -- Appearance
     appearance = {
