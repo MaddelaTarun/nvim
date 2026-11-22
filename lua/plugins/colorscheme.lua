@@ -1,4 +1,2 @@
-vim.pack.add({
-    { src = "https://github.com/mellow-theme/mellow.nvim" },
-})
-vim.cmd.colorscheme("mellow")
+vim.cmd.colorscheme("mountainv2")
+-- vim.cmd.colorscheme("mountain")
